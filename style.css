@@ -82,6 +82,10 @@ nav ul li a:hover{
     margin: 0 15px; 
 }
 
+.icons i:hover{
+    color: antiquewhite;
+}
+
 #myProgressBar{
     width: 80vw;
     cursor: pointer;
