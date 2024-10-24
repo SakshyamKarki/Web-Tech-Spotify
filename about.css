@@ -1,0 +1,113 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: bisque;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+    
+.container{
+    min-height: 62vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.content {
+    display: inline;
+    width: 60%;
+    align-content: center;
+}
+
+.content h1 {
+    margin-bottom: 15px;
+}
+
+.content  p {
+    margin-bottom: 7px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-media {
+    list-style-type: none;
+    margin: 7px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+#facebook{
+    color: rgb(55, 55, 248);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#instagram{
+    color: rgb(247, 137, 64);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#facebook:hover{
+    color: rgb(36, 26, 131);
+}
+
+#instagram:hover{
+    color: rgb(177, 102, 33);
+}
